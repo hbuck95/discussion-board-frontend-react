@@ -30,6 +30,36 @@ export default class DiscussionBar extends Component {
                 <NavLink href="#">Discussion D</NavLink>
             </NavItem>
             <NavItem>
+                <NavLink href="#">Discussion E</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="#">Discussion F</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="#">Discussion G</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="#">Discussion H</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="#">Discussion I</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="#">Discussion J</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="#">Discussion K</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="#">Discussion L</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="#">Discussion M</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="#">Discussion N</NavLink>
+            </NavItem>
+            <NavItem>
                 <NavLink href="#"><FontAwesomeIcon icon="plus-square" /></NavLink>
             </NavItem>
             </Nav>
