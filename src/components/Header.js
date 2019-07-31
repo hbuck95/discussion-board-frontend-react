@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import { 
     Collapse,
     Navbar,
@@ -6,11 +7,7 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem } from 'reactstrap';
+    NavLink } from 'reactstrap';
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -39,7 +36,7 @@ class Header extends Component {
         return (
           <div id="navbar">
             <Navbar color="light" light expand="md">
-              <NavbarBrand><h1><center></center>Discussion Board</h1></NavbarBrand>
+              <NavbarBrand><h1>Discussion Board</h1></NavbarBrand>
               <NavbarToggler onClick={this.toggle} />
               <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto" navbar>
